@@ -95,8 +95,6 @@ class SavingsAccount(Account):
     def interst(self):
         return f"Account{self.title, self.Balance, self.interestRate}"
 
-
-
 title = input("Enter the name: ")
 Balance = int(input("Enter the balance: "))
 interestRate = int(input("Enter the interest rate: "))
@@ -138,15 +136,11 @@ class SavingsAccount(Account):
         return (interestRate * balance)/(100) 
 
 
-# title = input("Enter the name: ")
-# balance = int(input("Enter the balance: "))
-#interestRate = int(input("Enter the interest rate: "))
-
 obj1 = Account("Ashish",5000)
 
 print(obj1.deposit(500))    
-# print(obj1.withdrawal(2000))   
+print(obj1.withdrawal(2000))   
 print(obj1.getBalance())
 
-# obj2 = SavingsAccount('Ashish',2000, 5)
-# print(obj2.interestAmount(5,2000))
+obj2 = SavingsAccount('Ashish',2000, 5)
+print(obj2.interestAmount(5,2000))

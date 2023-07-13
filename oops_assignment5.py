@@ -9,11 +9,9 @@ class Point:
         self.z = z
         print("SqSum of the values are: ")
 
-
     def sqSum(self):
         return self.x**2 + self.y**2 + self.z**2
-
-
+    
 x = int(input("Enter the value x: "))
 y = int(input("Enter the value y: "))
 z = int(input("Enter the value z: "))

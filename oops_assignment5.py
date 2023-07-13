@@ -87,7 +87,6 @@ class Account:
     def myfunc(self):
         return f"Account{self.title, self.Balance}"
 
-
 class SavingsAccount(Account):
     def __init__(self, title, Balance, interestRate):
         Account.__init__(self, title, Balance)

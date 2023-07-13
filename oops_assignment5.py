@@ -1,7 +1,6 @@
 # OOP Assignment
 
-#Challenge 1: 
-#Square Numbers and Return Their Sum:
+# Challenge 1: Square Numbers and Return their Sum:
 
 class Point:
     def __init__(self,x,y,z):
@@ -23,7 +22,7 @@ sqsum1 = Point(x,y,z)
 print(sqsum1.sqSum())    
 #---------------------------------------------------------------------------------------------------
 
-# 2. Challenge 2: Implement a Calculator Class
+# Challenge 2: Implement a Calculator Class
 # Write a Python class called Calculator by completing the tasks below
 
 class Calculator:
@@ -78,7 +77,7 @@ print(obj.name,obj.rollnumber)
 print(obj.setname("BIG MIKE"))
 print(obj.setRollNumber("25"))
 #------------------------------------------------------------------------------------------------------
-# Challenge 4 . Implement a Banking Account
+# Challenge 4. Implement a Banking Account
 
 class Account:
     def __init__(self, title, Balance):
@@ -105,7 +104,7 @@ obj2 = SavingsAccount(title,Balance,interestRate)
 print(obj2.interst()) 
 #-------------------------------------------------------------------------------------------------------------
 
-# Challenge 5: Handling a Bank Account
+#Challenge 5: Handling a Bank Account
 
 class Account:
     def __init__(self, title, balance):
